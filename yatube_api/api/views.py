@@ -5,7 +5,7 @@ from rest_framework import viewsets
 from rest_framework import mixins
 from rest_framework import filters
 
-from posts.models import Comment, Follow, Group, Post 
+from posts.models import Comment, Follow, Group, Post
 from .serializers import (CommentSerializer, FollowSerializer,
                           PostSerializer, GroupSerializer, )
 from .permissions import IsAuthorOrReadOnly, ReadOnly
